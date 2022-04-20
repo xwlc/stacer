@@ -24,7 +24,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     case QtFatalMsg:
         level = "FATAL"; break;
     default:
-        level = "UNDEFIEND"; break;
+        level = "UNDEFINED"; break;
     }
 
     if (type != QtWarningMsg) {
@@ -60,12 +60,12 @@ int main(int argc, char *argv[])
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
     {
-       QCommandLineOption hideOption("hide", "Hide Stacer while launching.");
-       QCommandLineOption noSplashOption("nosplash", "Hide splash screen while launching.");    
+        QCommandLineOption hideOption("hide", "Hide Stacer while launching.");
+        QCommandLineOption noSplashOption("nosplash", "Hide splash screen while launching.");    
         QCommandLineParser parser;
         parser.addVersionOption();
         parser.addHelpOption();
-	    parser.addOption(hideOption);
+        parser.addOption(hideOption);
         parser.addOption(noSplashOption);
         parser.process(app);
     }
@@ -77,10 +77,11 @@ int main(int argc, char *argv[])
     QLatin1String noSplashOption("--nosplash");
     
     for (size_t i = 1; i < argc; ++i) {
-      if (QString(argv[i]) == hideOption)
-        isHide = true;
-      else if (QString(argv[i]) == noSplashOption) 
-        isNoSplash = true;
+        if (QString(argv[i]) == hideOption) {
+            isHide = true;
+        } else if (QString(argv[i]) == noSplashOption) {
+            isNoSplash = true;
+        }
     }
 
     QFontDatabase::addApplicationFont(":/static/font/Ubuntu-R.ttf");
@@ -89,7 +90,9 @@ int main(int argc, char *argv[])
 
     QSplashScreen *splash = new QSplashScreen(pixSplash);
 
-    if (!isNoSplash) splash->show();
+    if (!isNoSplash) {
+        splash->show();
+    }
 
     app.processEvents();
 
