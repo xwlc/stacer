@@ -1,6 +1,6 @@
-Stacer.pro.*
-dist/
+.vscode/
 build/
-#*.AppImage
-.vscode
-Release/
+release/
+release-*/
+Stacer.pro.*
+lqt
