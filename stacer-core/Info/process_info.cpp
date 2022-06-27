@@ -1,5 +1,4 @@
 #include "process_info.h"
-
 #include <QDebug>
 
 void ProcessInfo::updateProcesses()

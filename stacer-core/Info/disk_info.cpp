@@ -62,9 +62,9 @@ QList<quint64> DiskInfo::getDiskIO() const
     quint64 totalWrite = 0;
 
     for (const QString diskName : diskNames) {
-      QStringList diskStat = FileUtil::readStringFromFile(QString("/sys/block/%1/stat").arg(diskName))
-              .trimmed()
-              .split(QRegExp("\\s+"));
+        QStringList diskStat = FileUtil::readStringFromFile(QString("/sys/block/%1/stat").arg(diskName))
+                .trimmed()
+                .split(QRegExp("\\s+"));
 
       if (diskStat.count() > 7) {
           totalRead = totalRead + (diskStat.at(2).toLongLong() * 512);

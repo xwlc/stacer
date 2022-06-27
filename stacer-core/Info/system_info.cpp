@@ -1,5 +1,4 @@
 #include "system_info.h"
-
 #include <QObject>
 #include <iostream>
 
@@ -9,7 +8,7 @@ SystemInfo::SystemInfo()
     QString model = nullptr;
     QString speed = nullptr;
 
-    try{
+    try {
         QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');  //run command in English language (guaratee same behaviour across languages)
 
         QRegExp regexp("\\s+");
@@ -23,8 +22,8 @@ SystemInfo::SystemInfo()
         {
             // fallback to CPU MHz
             filterSpeed = lines.filter(QRegExp("^CPU MHz"));
-            speedLine = filterSpeed.isEmpty() ? speedLine : filterSpeed.first();
         }
+        speedLine = filterSpeed.isEmpty() ? speedLine : filterSpeed.first();
 
         model = modelLine.split(":").last();
         speed = speedLine.split(":").last();
