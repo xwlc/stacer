@@ -1,8 +1,9 @@
 #include "app.h"
 #include "ui_app.h"
 #include "utilities.h"
-#include <QStyle>
 #include <QDebug>
+#include <QStyle>
+#include <QScreen>
 
 App::~App()
 {
@@ -23,9 +24,10 @@ App::App(QWidget *parent) :
 
 void App::init()
 {
+    QScreen *screen = QGuiApplication::primaryScreen();
     setGeometry(
         QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter,
-            size(), qApp->desktop()->availableGeometry())
+            size(), screen->availableGeometry())
     );
 
     // form settings

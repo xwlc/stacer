@@ -1,6 +1,6 @@
 #include "host_manage.h"
 #include "ui_host_manage.h"
-#include <qdebug.h>
+#include <QDebug>
 
 HostManage::~HostManage()
 {
