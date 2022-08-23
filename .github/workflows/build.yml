@@ -1,0 +1,42 @@
+name: Build Stacer Application
+
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  SOURCE_DIR: ${{ github.workspace }}
+  QT_VERSION: 5.15.2
+
+jobs:
+  build:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: ${{ env.QT_VERSION }}
+          host: linux
+          target: desktop
+          arch: gcc_64
+          modules: qtcharts
+          aqtversion: ">=2.2.*"
+      - name: Install build tools
+        run: |
+          sudo apt-get install -y dh-make
+          sudo apt-get install -y devscripts build-essential lintian
+      - name: Build
+        run: |
+          bash ${{ env.SOURCE_DIR }}/release.sh deb
+      - name: Upload workflow artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: stacer
+          path: ${{ env.SOURCE_DIR }}/release-*/*
