@@ -1,1 +1,3 @@
 *.sh eol=lf
+applications/* eol=lf
+debian/* eol=lf
