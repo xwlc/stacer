@@ -39,7 +39,7 @@ void App::init()
     searchPage = new SearchPage(mSlidingStacked);
     systemCleanerPage = new SystemCleanerPage(mSlidingStacked);
     servicesPage = new ServicesPage(mSlidingStacked);
-    processPage = new ProcessesPage(mSlidingStacked);
+    processesPage = new ProcessesPage(mSlidingStacked);
     helpersPage = new HelpersPage(mSlidingStacked);
     uninstallerPage = new UninstallerPage(mSlidingStacked);
     resourcesPage = new ResourcesPage(mSlidingStacked);
@@ -49,19 +49,19 @@ void App::init()
 
     mListPages = {
         dashboardPage, startupAppsPage, systemCleanerPage, searchPage, servicesPage,
-        processPage, uninstallerPage, resourcesPage, helpersPage, settingsPage
+        processesPage, uninstallerPage, resourcesPage, helpersPage, settingsPage
     };
 
     mListSidebarButtons = {
         ui->btnDash, ui->btnStartupApps, ui->btnSystemCleaner, ui->btnSearch, ui->btnServices,
-        ui->btnProcesses, ui->btnHelpers, ui->btnUninstaller, ui->btnResources, ui->btnSettings
+        ui->btnProcesses, ui->btnUninstaller, ui->btnResources, ui->btnHelpers, ui->btnSettings
     };
 
     // APT SOURCE MANAGER
     if (ToolManager::ins()->checkSourceRepository()) {
         aptSourceManagerPage = new APTSourceManagerPage(mSlidingStacked);
-        mListPages.insert(7, aptSourceManagerPage);
-        mListSidebarButtons.insert(7, ui->btnAptSourceManager);
+        mListPages.insert(9, aptSourceManagerPage);
+        mListSidebarButtons.insert(9, ui->btnAptSourceManager);
     } else {
         ui->btnAptSourceManager->hide();
     }
@@ -72,8 +72,8 @@ void App::init()
 
     if (checkDesktopSession || checkDistribution) {
         gnomeSettingsPage = new GnomeSettingsPage(mSlidingStacked);
-        mListPages.insert(8, gnomeSettingsPage);
-        mListSidebarButtons.insert(8, ui->btnGnomeSettings);
+        mListPages.insert(10, gnomeSettingsPage);
+        mListSidebarButtons.insert(10, ui->btnGnomeSettings);
     } else {
         ui->btnGnomeSettings->hide();
     }
@@ -242,7 +242,7 @@ void App::on_btnUninstaller_clicked()
 
 void App::on_btnProcesses_clicked()
 {
-    pageClick(processPage);
+    pageClick(processesPage);
 }
 
 void App::on_btnResources_clicked()

@@ -77,7 +77,7 @@ private:
     SystemCleanerPage *systemCleanerPage;
     SearchPage *searchPage;
     ServicesPage *servicesPage;
-    ProcessesPage *processPage;
+    ProcessesPage *processesPage;
     UninstallerPage *uninstallerPage;
     ResourcesPage *resourcesPage;
     APTSourceManagerPage *aptSourceManagerPage;
