@@ -6,11 +6,7 @@ Files: *
 Copyright: 2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
 License: GPL-3.0
 
-Files: debian/*
-Copyright: 2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
-License: GPL-3.0
-
-GNU GENERAL PUBLIC LICENSE
+                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>

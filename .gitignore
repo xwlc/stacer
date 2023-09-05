@@ -1,6 +1,4 @@
 .vscode/
 build/
 release/
-release-*/
-Stacer.pro.*
 lqt

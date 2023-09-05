@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm -rf build
-rm -rf output
 rm -rf release
 find . -name CMakeFiles -exec rm -rf {} +
 find . -name '*_autogen' -exec rm -rf {} +
