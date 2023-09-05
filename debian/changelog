@@ -1,6 +1,9 @@
-stacer (1.2.1-1) focal; urgency=medium
+stacer (1.2.2-1) focal; urgency=medium
 
-  * Fix core dump on Ubuntu > 22.04
-  * Fix page order wrong animation direction
+  * Bump several versions
+  * Small code cleanup conventions
+  * Fix byte comparison deprecation
+  * Added basque translation + fixed language codes
+  * Changed feedback URL to receive messages
 
- -- Quentin Lienhardt <pro@quentium.fr>  Mon, 24 Oct 2022 14:00:00 +0100
+ -- Quentin Lienhardt <pro@quentium.fr>  Tue, 5 Sep 2023 14:00:00 +0100
