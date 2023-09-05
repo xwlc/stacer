@@ -123,11 +123,12 @@ FORMS += \
 
 TRANSLATIONS += \
     ../translations/stacer_ar.ts \
-    ../translations/stacer_ca-es.ts \
+    ../translations/stacer_ca.ts \
     ../translations/stacer_cs.ts \
     ../translations/stacer_de.ts \
     ../translations/stacer_en.ts \
     ../translations/stacer_es.ts \
+    ../translations/stacer_eu.ts \
     ../translations/stacer_fr.ts \
     ../translations/stacer_gl.ts \
     ../translations/stacer_hi.ts \
