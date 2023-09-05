@@ -16,7 +16,7 @@ Feedback::Feedback(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Feedback),
     mHeader("Content-Type: application/json"),
-    mFeedbackUrl("https://stacer-web-api.herokuapp.com/feedback"),
+    mFeedbackUrl("https://stacer.quentium.fr/feedback.php"),
     mMailRegex("\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}\\b")
 {
     ui->setupUi(this);
@@ -42,7 +42,7 @@ void Feedback::on_btnSend_clicked()
 
     bool isEmailValid = mMailRegex.exactMatch(email);
 
-    if (! isEmailValid) {
+    if (!isEmailValid) {
         emit setErrorMessageS(tr("Email address is not valid !"));
         return;
     }
@@ -52,13 +52,11 @@ void Feedback::on_btnSend_clicked()
         return;
     }
 
-    if (! name.isEmpty() &&
-        ! email.isEmpty() && isEmailValid)
-    {
+    if (! name.isEmpty() && ! email.isEmpty() && isEmailValid) {
         QtConcurrent::run([=] {
             emit disableElementsS(true);
 
-            ui->btnSend->setText(tr("Sending.."));
+            ui->btnSend->setText(tr("Sending..."));
             QStringList args;
 
             QJsonObject postData;
