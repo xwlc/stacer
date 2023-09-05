@@ -171,7 +171,7 @@
     <message>
         <location filename="../stacer/app.ui" line="194"/>
         <source>Search</source>
-        <translation type="unfinished">Cerca</translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="222"/>
@@ -483,31 +483,31 @@
     <message>
         <location filename="../stacer/feedback.cpp" line="51"/>
         <source>Your message must be at least 5 characters !</source>
-        <translation type="unfinished">El vostre missatge ha de tenir com a mínim 25 caràcters! {5 ?}</translation>
+        <translation>El vostre missatge ha de tenir com a mínim 25 caràcters! {5 ?}</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="61"/>
-        <source>Sending..</source>
+        <location filename="../stacer/feedback.cpp" line="59"/>
+        <source>Sending...</source>
         <translation>S&apos;està enviant...</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="79"/>
+        <location filename="../stacer/feedback.cpp" line="77"/>
         <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
         <translation>&lt;font color=&apos;#2ecc71&apos;&gt;Els vostres comentaris s&apos;han enviat amb èxit.&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="81"/>
-        <location filename="../stacer/feedback.cpp" line="86"/>
+        <location filename="../stacer/feedback.cpp" line="79"/>
+        <location filename="../stacer/feedback.cpp" line="84"/>
         <source>Something went wrong, try again !</source>
         <translation>S&apos;ha produït un error, torneu-ho a provar.</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="89"/>
+        <location filename="../stacer/feedback.cpp" line="87"/>
         <source>Save</source>
         <translation>Desa</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="94"/>
+        <location filename="../stacer/feedback.cpp" line="92"/>
         <source>Fields cannot be left blank !</source>
         <translation>Els camps no es poden deixar en blanc!</translation>
     </message>
@@ -590,7 +590,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="176"/>
         <source>Save</source>
-        <translation type="unfinished">Desa</translation>
+        <translation>Desa</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="189"/>
@@ -600,7 +600,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="192"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel·la</translation>
+        <translation>Cancel·la</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="24"/>
@@ -621,12 +621,12 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="135"/>
         <source>Edit</source>
-        <translation type="unfinished">Edita</translation>
+        <translation>Edita</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="139"/>
         <source>Delete</source>
-        <translation type="unfinished">Esborra</translation>
+        <translation>Esborra</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="147"/>
@@ -819,7 +819,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="14"/>
         <source>Search</source>
-        <translation type="unfinished">Cerca</translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="101"/>
@@ -829,7 +829,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished">Cerca...</translation>
+        <translation>Cerca...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="145"/>
@@ -882,7 +882,7 @@
         <location filename="../stacer/Pages/Search/search_page.ui" line="490"/>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Size</source>
-        <translation type="unfinished">Mida</translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="514"/>
@@ -932,7 +932,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
@@ -942,12 +942,12 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>User</source>
-        <translation type="unfinished">Usuari</translation>
+        <translation>Usuari</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Group</source>
-        <translation type="unfinished">Grup</translation>
+        <translation>Grup</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="26"/>
@@ -982,7 +982,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="89"/>
         <source>Delete</source>
-        <translation type="unfinished">Esborra</translation>
+        <translation>Esborra</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="122"/>
@@ -1209,7 +1209,7 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>Search</source>
-        <translation type="unfinished">Cerca</translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
@@ -1374,7 +1374,7 @@
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="773"/>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="782"/>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>

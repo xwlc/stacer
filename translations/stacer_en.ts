@@ -486,28 +486,28 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="61"/>
-        <source>Sending..</source>
+        <location filename="../stacer/feedback.cpp" line="59"/>
+        <source>Sending...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="79"/>
+        <location filename="../stacer/feedback.cpp" line="77"/>
         <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="81"/>
-        <location filename="../stacer/feedback.cpp" line="86"/>
+        <location filename="../stacer/feedback.cpp" line="79"/>
+        <location filename="../stacer/feedback.cpp" line="84"/>
         <source>Something went wrong, try again !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="89"/>
+        <location filename="../stacer/feedback.cpp" line="87"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="94"/>
+        <location filename="../stacer/feedback.cpp" line="92"/>
         <source>Fields cannot be left blank !</source>
         <translation type="unfinished"></translation>
     </message>

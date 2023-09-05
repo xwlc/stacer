@@ -6,12 +6,12 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="14"/>
         <source>APT Repository Edit</source>
-        <translation type="unfinished">APT 저장소 수정</translation>
+        <translation>APT 저장소 수정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="38"/>
         <source>APT Repository</source>
-        <translation type="unfinished">APT 저장소</translation>
+        <translation>APT 저장소</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="48"/>
@@ -26,12 +26,12 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="87"/>
         <source>Fields cannot be left blank. </source>
-        <translation type="unfinished">공백은 허용되지 않습니다.</translation>
+        <translation>공백은 허용되지 않습니다. </translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="94"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="110"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
@@ -64,27 +64,27 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="188"/>
         <source>Search...</source>
-        <translation type="unfinished">검색...</translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="226"/>
         <source>Edit</source>
-        <translation type="unfinished">수정</translation>
+        <translation>수정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="14"/>
         <source>APT Repository Manager</source>
-        <translation type="unfinished">APT 저장소 관리</translation>
+        <translation>APT 저장소 관리</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="125"/>
         <source>Not Found APT Repositories</source>
-        <translation type="unfinished">APT 저장소를 찾을 수 없습니다.</translation>
+        <translation>APT 저장소를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="269"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="308"/>
@@ -95,32 +95,32 @@
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="86"/>
         <source>Add Repository</source>
-        <translation type="unfinished">저장소 추가</translation>
+        <translation>저장소 추가</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="371"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
         <source>Select to delete or edit.</source>
-        <translation type="unfinished">수정 또는 삭제를 선택하세요.</translation>
+        <translation>수정 또는 삭제를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="25"/>
         <source>example %1</source>
-        <translation type="unfinished">예 %1</translation>
+        <translation>예 %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="59"/>
         <source>APT Repositories (%1)</source>
-        <translation type="unfinished">APT 저장소 (%1)</translation>
+        <translation>APT 저장소 (%1)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="66"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
 </context>
 <context>
@@ -136,17 +136,17 @@
     <message>
         <location filename="../stacer/app.ui" line="101"/>
         <source>Dashboard</source>
-        <translation type="unfinished">대시보드</translation>
+        <translation>대시보드</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="135"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">시작 프로그램</translation>
+        <translation>시작 프로그램</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="163"/>
         <source>System Cleaner</source>
-        <translation type="unfinished">시스템 클리너</translation>
+        <translation>시스템 클리너</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="194"/>
@@ -156,12 +156,12 @@
     <message>
         <location filename="../stacer/app.ui" line="278"/>
         <source>Uninstaller</source>
-        <translation type="unfinished">프로그램 제거</translation>
+        <translation>프로그램 제거</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="306"/>
         <source>Resources</source>
-        <translation type="unfinished">시스템 자원</translation>
+        <translation>시스템 자원</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="334"/>
@@ -171,17 +171,17 @@
     <message>
         <location filename="../stacer/app.ui" line="362"/>
         <source>APT Repository Manager</source>
-        <translation type="unfinished">APT 저장소 관리</translation>
+        <translation>APT 저장소 관리</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="250"/>
         <source>Processes</source>
-        <translation type="unfinished">프로세스</translation>
+        <translation>프로세스</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="222"/>
         <source>Services</source>
-        <translation type="unfinished">서비스</translation>
+        <translation>서비스</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="390"/>
@@ -191,19 +191,19 @@
     <message>
         <location filename="../stacer/app.ui" line="418"/>
         <source>Settings</source>
-        <translation type="unfinished">프로그램 설정</translation>
+        <translation>프로그램 설정</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="459"/>
         <source>Feedback</source>
-        <translation type="unfinished">피드백</translation>
+        <translation>피드백</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="102"/>
         <location filename="../stacer/app.cpp" line="109"/>
         <location filename="../stacer/app.cpp" line="162"/>
         <source>Quit</source>
-        <translation type="unfinished">종료</translation>
+        <translation>종료</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="104"/>
@@ -319,67 +319,67 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
         <source>Dashboard</source>
-        <translation type="unfinished">대시보드</translation>
+        <translation>대시보드</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
         <source>SYSTEM INFO</source>
-        <translation type="unfinished">시스템 정보</translation>
+        <translation>시스템 정보</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="230"/>
         <source>There are update currently available.</source>
-        <translation type="unfinished">프로그램의 최신 업데이트가 있습니다.</translation>
+        <translation>프로그램의 최신 업데이트가 있습니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="246"/>
         <source>Download</source>
-        <translation type="unfinished">다운로드</translation>
+        <translation>다운로드</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="18"/>
         <source>CPU</source>
-        <translation type="unfinished">CPU</translation>
+        <translation>CPU</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="19"/>
         <source>MEMORY</source>
-        <translation type="unfinished">메모리</translation>
+        <translation>메모리</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="20"/>
         <source>DISK</source>
-        <translation type="unfinished">디스크</translation>
+        <translation>디스크</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="21"/>
         <source>DOWNLOAD</source>
-        <translation type="unfinished">다운로드 속도</translation>
+        <translation>다운로드 속도</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="22"/>
         <source>UPLOAD</source>
-        <translation type="unfinished">업로드 속도</translation>
+        <translation>업로드 속도</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
         <source>Hostname: %1</source>
-        <translation type="unfinished">호스트명: %1</translation>
+        <translation>호스트명: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Platform: %1</source>
-        <translation type="unfinished">플랫폼: %1</translation>
+        <translation>플랫폼: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
         <source>Distribution: %1</source>
-        <translation type="unfinished">운영체제: %1</translation>
+        <translation>운영체제: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>Kernel Release: %1</source>
-        <translation type="unfinished">커널 버전: %1</translation>
+        <translation>커널 버전: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
@@ -399,38 +399,38 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="137"/>
         <source>High CPU Usage</source>
-        <translation type="unfinished">높은 CPU 사용율</translation>
+        <translation>높은 CPU 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
         <source>The amount of CPU used is over %1%.</source>
-        <translation type="unfinished">%1% 이상의 CPU를 사용 중입니다.</translation>
+        <translation>%1% 이상의 CPU를 사용 중입니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="166"/>
         <source>High Memory Usage</source>
-        <translation type="unfinished">높은 메모리 사용율</translation>
+        <translation>높은 메모리 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="167"/>
         <source>The amount of memory used is over %1%.</source>
-        <translation type="unfinished">%1% 이상의 메모리를 사용 중입니다.</translation>
+        <translation>%1% 이상의 메모리를 사용 중입니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="210"/>
         <source>High Disk Usage</source>
-        <translation type="unfinished">높은 디스크 사용율</translation>
+        <translation>높은 디스크 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="211"/>
         <source>The amount of disk used is over %1%.</source>
-        <translation type="unfinished">%1% 이상의 디스크를 사용 중입니다.</translation>
+        <translation>%1% 이상의 디스크를 사용 중입니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="249"/>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="253"/>
         <source>Total: %1</source>
-        <translation type="unfinished">전체: %1</translation>
+        <translation>전체: %1</translation>
     </message>
 </context>
 <context>
@@ -438,22 +438,22 @@
     <message>
         <location filename="../stacer/feedback.ui" line="14"/>
         <source>Feedback</source>
-        <translation type="unfinished">피드백</translation>
+        <translation>피드백</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="61"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="68"/>
         <source>Email Address</source>
-        <translation type="unfinished">이메일</translation>
+        <translation>이메일</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="97"/>
         <source>Send</source>
-        <translation type="unfinished">보내기</translation>
+        <translation>보내기</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="117"/>
@@ -468,48 +468,48 @@
     <message>
         <location filename="../stacer/feedback.ui" line="54"/>
         <source>Message</source>
-        <translation type="unfinished">메세지</translation>
+        <translation>메세지</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="78"/>
         <source>Send a Feedback</source>
-        <translation type="unfinished">피드백 보내기</translation>
+        <translation>피드백 보내기</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="46"/>
         <source>Email address is not valid !</source>
-        <translation type="unfinished">잘못된 이메일 형식입니다 !</translation>
+        <translation>잘못된 이메일 형식입니다 !</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="51"/>
         <source>Your message must be at least 5 characters !</source>
-        <translation type="unfinished">25자 이상의 메세지를 작성하세요 ! {5 ?}</translation>
+        <translation>25자 이상의 메세지를 작성하세요 ! {5 ?}</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="61"/>
-        <source>Sending..</source>
-        <translation type="unfinished">전송중..</translation>
+        <location filename="../stacer/feedback.cpp" line="59"/>
+        <source>Sending...</source>
+        <translation>전송중...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/feedback.cpp" line="77"/>
+        <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
+        <translation>&lt;font color=&apos;#2ecc71&apos;&gt;피드백 메세지가 성공적으로 전달되었습니다.&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="79"/>
-        <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
-        <translation type="unfinished">&lt;font color=&apos;#2ecc71&apos;&gt;피드백 메세지가 성공적으로 전달되었습니다.&lt;/font&gt;</translation>
-    </message>
-    <message>
-        <location filename="../stacer/feedback.cpp" line="81"/>
-        <location filename="../stacer/feedback.cpp" line="86"/>
+        <location filename="../stacer/feedback.cpp" line="84"/>
         <source>Something went wrong, try again !</source>
-        <translation type="unfinished">알 수 없는 오류입니다. 다시 시도해 주세요 !</translation>
+        <translation>알 수 없는 오류입니다. 다시 시도해 주세요 !</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="89"/>
+        <location filename="../stacer/feedback.cpp" line="87"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="94"/>
+        <location filename="../stacer/feedback.cpp" line="92"/>
         <source>Fields cannot be left blank !</source>
-        <translation type="unfinished">공백이 허용되지 않습니다 !</translation>
+        <translation>공백이 허용되지 않습니다 !</translation>
     </message>
 </context>
 <context>
@@ -590,7 +590,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="176"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="189"/>
@@ -600,7 +600,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="192"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="24"/>
@@ -621,12 +621,12 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="135"/>
         <source>Edit</source>
-        <translation type="unfinished">수정</translation>
+        <translation>수정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="139"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="147"/>
@@ -640,62 +640,62 @@
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="14"/>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="55"/>
         <source>Processes</source>
-        <translation type="unfinished">프로세스 목록</translation>
+        <translation>프로세스 목록</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="71"/>
         <source>All Processes</source>
-        <translation type="unfinished">전체 프로세스</translation>
+        <translation>전체 프로세스</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="96"/>
         <source>Search...</source>
-        <translation type="unfinished">검색...</translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="217"/>
         <source>End Process</source>
-        <translation type="unfinished">프로세스 종료</translation>
+        <translation>프로세스 종료</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
         <source>User</source>
-        <translation type="unfinished">사용자</translation>
+        <translation>사용자</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
         <source>Resident Memory</source>
-        <translation type="unfinished">사용중인 메모리</translation>
+        <translation>사용중인 메모리</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
         <source>%Memory</source>
-        <translation type="unfinished">메모리 사용율 %</translation>
+        <translation>메모리 사용율 %</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
         <source>Virtual Memory</source>
-        <translation type="unfinished">가상 메모리</translation>
+        <translation>가상 메모리</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
         <source>Start Time</source>
-        <translation type="unfinished">시작 시간</translation>
+        <translation>시작 시간</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
         <source>State</source>
-        <translation type="unfinished">상태</translation>
+        <translation>상태</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
         <source>Group</source>
-        <translation type="unfinished">그룹</translation>
+        <translation>그룹</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
         <source>Nice</source>
-        <translation type="unfinished">실행시간</translation>
+        <translation>실행시간</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
@@ -705,12 +705,12 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
         <source>Session</source>
-        <translation type="unfinished">세션</translation>
+        <translation>세션</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
         <source>Process</source>
-        <translation type="unfinished">프로세스</translation>
+        <translation>프로세스</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="118"/>
@@ -720,7 +720,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="209"/>
         <source>Refresh (%1)</source>
-        <translation type="unfinished">새로고침 (%1)</translation>
+        <translation>새로고침 (%1)</translation>
     </message>
 </context>
 <context>
@@ -728,7 +728,7 @@
     <message>
         <location filename="../stacer/Managers/setting_manager.cpp" line="61"/>
         <source>Dashboard</source>
-        <translation type="unfinished">대시보드</translation>
+        <translation>대시보드</translation>
     </message>
 </context>
 <context>
@@ -776,27 +776,27 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="214"/>
         <source>Read: %1/s Total: %2</source>
-        <translation type="unfinished">읽기: %1/s 전체: %2</translation>
+        <translation>읽기: %1/s 전체: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="220"/>
         <source>Write: %1/s Total: %2</source>
-        <translation type="unfinished">쓰기: %1/s 전체: %2</translation>
+        <translation>쓰기: %1/s 전체: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="257"/>
         <source>%1 Minute Average: %2</source>
-        <translation type="unfinished">%1 분 평균: %2</translation>
+        <translation>%1 분 평균: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="303"/>
         <source>Download: %1/s Total: %2</source>
-        <translation type="unfinished">다운로드: %1/s 전체: %2</translation>
+        <translation>다운로드: %1/s 전체: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="308"/>
         <source>Upload: %1/s  Total: %2</source>
-        <translation type="unfinished">업로드: %1/s  전체: %2</translation>
+        <translation>업로드: %1/s  전체: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="352"/>
@@ -811,7 +811,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.ui" line="14"/>
         <source>Resources</source>
-        <translation type="unfinished">시스템 자원</translation>
+        <translation>시스템 자원</translation>
     </message>
 </context>
 <context>
@@ -829,7 +829,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="113"/>
         <source>Search...</source>
-        <translation type="unfinished">검색...</translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="145"/>
@@ -882,7 +882,7 @@
         <location filename="../stacer/Pages/Search/search_page.ui" line="490"/>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="514"/>
@@ -932,7 +932,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
@@ -942,12 +942,12 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>User</source>
-        <translation type="unfinished">사용자</translation>
+        <translation>사용자</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
         <source>Group</source>
-        <translation type="unfinished">그룹</translation>
+        <translation>그룹</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="26"/>
@@ -982,7 +982,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="89"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="122"/>
@@ -1081,57 +1081,57 @@
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="14"/>
         <source>Services</source>
-        <translation type="unfinished">서비스 목록</translation>
+        <translation>서비스 목록</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
         <source>Startup at boot ?</source>
-        <translation type="unfinished">시스템 시작 시 실행 여부</translation>
+        <translation>시스템 시작 시 실행 여부</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
         <source>Running Now ?</source>
-        <translation type="unfinished">현재 구동 중 여부</translation>
+        <translation>현재 구동 중 여부</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
         <source>Not Found System Service</source>
-        <translation type="unfinished">서비스를 찾을 수 없습니다.</translation>
+        <translation>서비스를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
         <source>Running Status</source>
-        <translation type="unfinished">구동 중인 상태</translation>
+        <translation>구동 중인 상태</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
         <source>Running</source>
-        <translation type="unfinished">구동 중</translation>
+        <translation>구동 중</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
         <source>Not Running</source>
-        <translation type="unfinished">사용안함</translation>
+        <translation>사용안함</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
         <source>Startup Status</source>
-        <translation type="unfinished">부팅 시 상태</translation>
+        <translation>부팅 시 상태</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
         <source>Enabled</source>
-        <translation type="unfinished">시작됨</translation>
+        <translation>시작됨</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
         <source>Disabled</source>
-        <translation type="unfinished">사용안함</translation>
+        <translation>사용안함</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="75"/>
         <source>System Services (%1)</source>
-        <translation type="unfinished">시스템 서비스 (%1)</translation>
+        <translation>시스템 서비스 (%1)</translation>
     </message>
 </context>
 <context>
@@ -1139,17 +1139,17 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="20"/>
         <source>Settings</source>
-        <translation type="unfinished">설정</translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="97"/>
         <source>Memory Percent</source>
-        <translation type="unfinished">메모리 사용율</translation>
+        <translation>메모리 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="129"/>
         <source>Disk Percent</source>
-        <translation type="unfinished">디스크 사용율</translation>
+        <translation>디스크 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="329"/>
@@ -1159,52 +1159,52 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="389"/>
         <source>Disks</source>
-        <translation type="unfinished">디스크</translation>
+        <translation>디스크</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="158"/>
         <source>Language</source>
-        <translation type="unfinished">언어설정</translation>
+        <translation>언어설정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="171"/>
         <source>Autostart Stacer</source>
-        <translation type="unfinished">부팅 시 프로그램 자동 시작</translation>
+        <translation>부팅 시 프로그램 자동 시작</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="229"/>
         <source>Alert messages (Show a warning after the specified percentage)</source>
-        <translation type="unfinished">알림 설정 (아래 값을 설정하면 알림 메세지를 보여줍니다.)</translation>
+        <translation>알림 설정 (아래 값을 설정하면 알림 메세지를 보여줍니다.)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="402"/>
         <source>Start Page</source>
-        <translation type="unfinished">프로그램 시작 페이지</translation>
+        <translation>프로그램 시작 페이지</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="213"/>
         <source>CPU Percent</source>
-        <translation type="unfinished">CPU 사용율</translation>
+        <translation>CPU 사용율</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="267"/>
         <source>Donate</source>
-        <translation type="unfinished">후원하기</translation>
+        <translation>후원하기</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>Dashboard</source>
-        <translation type="unfinished">대시보드</translation>
+        <translation>대시보드</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">시작 프로그램</translation>
+        <translation>시작 프로그램</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>System Cleaner</source>
-        <translation type="unfinished">시스템 클리너</translation>
+        <translation>시스템 클리너</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
@@ -1214,22 +1214,22 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Services</source>
-        <translation type="unfinished">서비스</translation>
+        <translation>서비스</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Processes</source>
-        <translation type="unfinished">프로세스</translation>
+        <translation>프로세스</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Uninstaller</source>
-        <translation type="unfinished">프로그램 제거</translation>
+        <translation>프로그램 제거</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Resources</source>
-        <translation type="unfinished">시스템 자원</translation>
+        <translation>시스템 자원</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
@@ -1242,12 +1242,12 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app.ui" line="128"/>
         <source>Edit App</source>
-        <translation type="unfinished">프로그램 수정</translation>
+        <translation>프로그램 수정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app.ui" line="150"/>
         <source>Delete App</source>
-        <translation type="unfinished">프로그램 삭제</translation>
+        <translation>프로그램 삭제</translation>
     </message>
 </context>
 <context>
@@ -1255,37 +1255,37 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="20"/>
         <source>Startup App</source>
-        <translation type="unfinished">시작 프로그램</translation>
+        <translation>시작 프로그램</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="74"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="44"/>
         <source>Fields cannot be left blank. </source>
-        <translation type="unfinished">공백은 허용되지 않습니다. </translation>
+        <translation>공백은 허용되지 않습니다. </translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="58"/>
         <source>App Comment</source>
-        <translation type="unfinished">프로그램 설명</translation>
+        <translation>프로그램 설명</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="51"/>
         <source>App Name</source>
-        <translation type="unfinished">프로그램 이름</translation>
+        <translation>프로그램 이름</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="97"/>
         <source>Command</source>
-        <translation type="unfinished">실행명령</translation>
+        <translation>실행명령</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="87"/>
         <source>Application</source>
-        <translation type="unfinished">프로그램</translation>
+        <translation>프로그램</translation>
     </message>
 </context>
 <context>
@@ -1293,17 +1293,17 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
         <source>Not Found Startup Apps</source>
-        <translation type="unfinished">시작 프로그램이 없습니다</translation>
+        <translation>시작 프로그램이 없습니다</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="14"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">시작 프로그램 목록</translation>
+        <translation>시작 프로그램 목록</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="101"/>
         <source>Add Startup App</source>
-        <translation type="unfinished">시작 프로그램 추가</translation>
+        <translation>시작 프로그램 추가</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="62"/>
@@ -1313,7 +1313,7 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="123"/>
         <source>Startup Applications (%1)</source>
-        <translation type="unfinished">시작 프로그램 목록 (%1)</translation>
+        <translation>시작 프로그램 목록 (%1)</translation>
     </message>
 </context>
 <context>
@@ -1321,32 +1321,32 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="14"/>
         <source>System Cleaner</source>
-        <translation type="unfinished">시스템 클리너</translation>
+        <translation>시스템 클리너</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="66"/>
         <source>Crash Reports</source>
-        <translation type="unfinished">시스템 오류 기록</translation>
+        <translation>시스템 오류 기록</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="180"/>
         <source>Application Logs</source>
-        <translation type="unfinished">프로그램 로그</translation>
+        <translation>프로그램 로그</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="218"/>
         <source>Application Caches</source>
-        <translation type="unfinished">프로그램 캐시</translation>
+        <translation>프로그램 캐시</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="366"/>
         <source>Trash</source>
-        <translation type="unfinished">휴지통</translation>
+        <translation>휴지통</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="404"/>
         <source>Package Caches</source>
-        <translation type="unfinished">패키지 캐시</translation>
+        <translation>패키지 캐시</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="493"/>
@@ -1363,7 +1363,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="651"/>
         <source> Back</source>
-        <translation type="unfinished"> 뒤로가기</translation>
+        <translation> 뒤로가기</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="759"/>
@@ -1374,12 +1374,12 @@
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="773"/>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="782"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
         <source>File Name</source>
-        <translation type="unfinished">파일명</translation>
+        <translation>파일명</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="181"/>
@@ -1391,12 +1391,12 @@
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="800"/>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="294"/>
         <source>%1 size files cleaned.</source>
-        <translation type="unfinished">%1 크기의 파일이 제거됨.</translation>
+        <translation>%1 크기의 파일이 제거됨.</translation>
     </message>
 </context>
 <context>
@@ -1404,7 +1404,7 @@
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="14"/>
         <source>Uninstaller</source>
-        <translation type="unfinished">프로그램 제거</translation>
+        <translation>프로그램 제거</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="78"/>
@@ -1425,18 +1425,18 @@
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
         <source>Search...</source>
-        <translation type="unfinished">검색...</translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
         <source>Not Found Installed Packages</source>
-        <translation type="unfinished">설치된 프로그램을 찾을 수 없습니다.</translation>
+        <translation>설치된 프로그램을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
         <source>Uninstall Selected</source>
-        <translation type="unfinished">선택된 프로그램 제거</translation>
+        <translation>선택된 프로그램 제거</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="93"/>
