@@ -1,13 +1,10 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/header.png" width="800">    
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/header.png" width="800">    
 </p>
 
 <h2 align="center">Linux System Optimizer and Monitoring</h2>
 
 <p align="center">
-	<a href="https://sourceforge.net/projects/stacer/files/" rel="nofollow">
-		<img alt="Download Stacer" src="https://img.shields.io/sourceforge/dt/stacer.svg"/>
-	</a>
 	<a href="https://www.kernel.org">
 		<img alt="Platform (GNU/Linux)" src="https://img.shields.io/badge/platform-GNU/Linux-blue.svg"/>
 	</a>
@@ -41,28 +38,22 @@
 -   curl
 -   systemd
 
-### PPA Repository (for ubuntu)
+### Ubuntu PPA Repository
 
-1. Run `sudo add-apt-repository ppa:quentiumyt/stacer -y`
+1. Run `sudo add-apt-repository ppa:quentiumyt/stacer`
 2. Run `sudo apt-get update`
-3. Run `sudo apt-get install stacer -y`
+3. Run `sudo apt-get install stacer`
 
-
-### Arch Linux (AUR)
-1. Install the stacer package with a AUR helper of your choice eg.
-2. `yay -Syyu stacer`
-3. `paru -S stacer`
-4. `pacaur -a stacer`
-
-### Debian x64
+### Debian / Ubuntu
 
 1. Download the stacer binary from the [Stacer releases page](https://github.com/Quentium-Forks/Stacer/releases).
 2. Run `sudo dpkg -i stacer_*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
-### Debian sid / Ubuntu 20.04+
+### Debian / Ubuntu (with APT)
 
 1. Run `sudo apt-get install stacer`
+2. Launch Stacer using the installed `stacer` command.
 
 ### Fedora
 
@@ -75,7 +66,7 @@
 1. Run `sudo dnf install stacer`
 2. Launch Stacer using the installed `stacer` command.
 
-### Arch Linux (AUR)
+### Arch Linux (with AUR)
 
 Select the AUR helper of your choice:
 
@@ -108,95 +99,71 @@ Dependencies:
 ## Screenshots
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-1.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-1.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-2.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-2.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-3.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-3.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-4.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-4.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-5.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-5.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-6.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-6.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-7.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-7.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-8.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-8.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-9.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-9.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-10.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-10.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-11.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-11.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-12.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-12.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-13.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-13.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-14.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-14.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-15.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-15.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/native/screenshots/Screenshot-1.0.9-16.png" width="700">
+    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-16.png" width="700">
 </p>
 
 ## Contributors
 
-### Code Contributors
+This project exists thanks to all the people who contribute.
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 <a href="https://github.com/Quentium-Forks/Stacer/graphs/contributors"><img src="https://opencollective.com/Stacer/contributors.svg?width=890&button=false" /></a>
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/Stacer/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/Stacer"><img src="https://opencollective.com/Stacer/individuals.svg?width=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/Stacer/contribute)]
-
-<a href="https://opencollective.com/Stacer/organization/0/website"><img src="https://opencollective.com/Stacer/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/1/website"><img src="https://opencollective.com/Stacer/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/2/website"><img src="https://opencollective.com/Stacer/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/3/website"><img src="https://opencollective.com/Stacer/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/4/website"><img src="https://opencollective.com/Stacer/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/5/website"><img src="https://opencollective.com/Stacer/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/6/website"><img src="https://opencollective.com/Stacer/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/7/website"><img src="https://opencollective.com/Stacer/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/8/website"><img src="https://opencollective.com/Stacer/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/Stacer/organization/9/website"><img src="https://opencollective.com/Stacer/organization/9/avatar.svg"></a>
