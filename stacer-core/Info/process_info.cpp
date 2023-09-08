@@ -1,5 +1,7 @@
 #include "process_info.h"
+
 #include <QDebug>
+#include <QRegularExpression>
 
 void ProcessInfo::updateProcesses()
 {
@@ -15,7 +17,7 @@ void ProcessInfo::updateProcesses()
                 .split(QChar('\n'));
 
         if (! lines.isEmpty()) {
-            QRegExp sep("\\s+");
+            QRegularExpression sep("\\s+");
             for (const QString &line : lines) {
                 QStringList procLine = line.trimmed().split(sep);
 

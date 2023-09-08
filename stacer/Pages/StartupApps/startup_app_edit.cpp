@@ -1,7 +1,9 @@
 #include "startup_app_edit.h"
 #include "ui_startup_app_edit.h"
 #include "utilities.h"
+
 #include <QDebug>
+#include <QRegularExpression>
 #include <QStyle>
 #include <QScreen>
 
@@ -30,10 +32,9 @@ StartupAppEdit::StartupAppEdit(QWidget *parent) :
 
 void StartupAppEdit::init()
 {
-    QScreen *screen = QGuiApplication::primaryScreen();
     setGeometry(
         QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter,
-            size(), screen->availableGeometry())
+            size(), qApp->primaryScreen()->availableGeometry())
     );
 
     mAutostartPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/autostart";
@@ -66,7 +67,7 @@ void StartupAppEdit::show()
     QDialog::show();
 }
 
-void StartupAppEdit::changeDesktopValue(QStringList &lines, const QRegExp &reg, const QString &text)
+void StartupAppEdit::changeDesktopValue(QStringList &lines, const QRegularExpression &reg, const QString &text)
 {
     int pos = lines.indexOf(reg);
 

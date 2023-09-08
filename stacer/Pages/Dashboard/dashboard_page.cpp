@@ -6,6 +6,7 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QNetworkRequest>
+#include <QRegularExpression>
 
 DashboardPage::~DashboardPage()
 {
@@ -81,19 +82,19 @@ void DashboardPage::checkUpdate()
         {
             const QString requestResult= reply->readAll();
             const QJsonDocument result = QJsonDocument::fromJson(requestResult.toUtf8());
-            const QRegExp ex("([0-9].[0-9].[0-9])");
-            ex.indexIn(result.object().value("tag_name").toString());
+            const QRegularExpression ex("([0-9].[0-9].[0-9])");
+            QRegularExpressionMatch match;
+            if (result.object().value("tag_name").toString().indexOf(ex) != -1) {
+                if (match.capturedLength() > 0) {
+                    const QString version = match.captured();
 
-            if (ex.matchedLength() > 0)
-            {
-                const QString version = ex.cap();
-
-                if (qApp->applicationVersion() != version) {
-                    emit sigShowUpdateBar();
+                    if (qApp->applicationVersion() != version) {
+                        emit sigShowUpdateBar();
+                    }
                 }
             }
-        }
 
+        }
     });
     nam->get(updateCheckRequest);
 }

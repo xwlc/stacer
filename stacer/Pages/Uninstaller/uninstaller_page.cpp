@@ -1,7 +1,8 @@
 #include "uninstaller_page.h"
 #include "ui_uninstallerpage.h"
-#include <QMovie>
 #include "utilities.h"
+
+#include <QMovie>
 
 UninstallerPage::~UninstallerPage()
 {
@@ -31,8 +32,13 @@ void UninstallerPage::init()
     QList<QWidget*> widgets = { ui->txtPackageSearch, ui->btnUninstall, ui->btnSystemPackages, ui->btnSnapPackages };
     Utilities::addDropShadow(widgets, 40);
 
-    QtConcurrent::run(this, &UninstallerPage::loadPackages);
-    QtConcurrent::run(this, &UninstallerPage::loadSnapPackages);
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QFuture<void> future1 = QtConcurrent::run(&UninstallerPage::loadPackages, this);
+    QFuture<void> future2 = QtConcurrent::run(&UninstallerPage::loadSnapPackages, this);
+#else
+    QFuture<void> future1 = QtConcurrent::run(this, &UninstallerPage::loadPackages);
+    QFuture<void> future2 = QtConcurrent::run(this, &UninstallerPage::loadSnapPackages);
+#endif
 
     connect(SignalMapper::ins(), &SignalMapper::sigUninstallStarted, this, &UninstallerPage::uninstallStarted);
     connect(SignalMapper::ins(), &SignalMapper::sigUninstallFinished, this, &UninstallerPage::loadPackages);
@@ -140,8 +146,7 @@ void UninstallerPage::on_btnUninstall_clicked()
     QStringList selectedSnapPackages = getSelectedSnapPackages();
 
     if (!selectedPackages.isEmpty() || !selectedSnapPackages.isEmpty()) {
-        QtConcurrent::run([=]
-        {
+        QFuture<void> future = QtConcurrent::run([=] {
             emit SignalMapper::ins()->sigUninstallStarted();
 
             ToolManager::ins()->uninstallPackages(selectedPackages);

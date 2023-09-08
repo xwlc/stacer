@@ -1,10 +1,5 @@
 #include "file_util.h"
 
-FileUtil::FileUtil()
-{
-
-}
-
 QString FileUtil::readStringFromFile(const QString &path, const QIODevice::OpenMode &mode)
 {
     QSharedPointer<QFile> file(new QFile(path));

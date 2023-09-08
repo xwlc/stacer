@@ -2,6 +2,8 @@
 #include "ui_processes_page.h"
 #include "utilities.h"
 
+#include <QRegularExpression>
+
 ProcessesPage::~ProcessesPage()
 {
     delete ui;
@@ -198,10 +200,9 @@ QList<QStandardItem*> ProcessesPage::createRow(const Process &proc)
 
 void ProcessesPage::on_txtProcessSearch_textChanged(const QString &val)
 {
-    QRegExp query(val, Qt::CaseInsensitive, QRegExp::Wildcard);
-
+    QRegularExpression query(QRegularExpression::wildcardToRegularExpression(val), QRegularExpression::CaseInsensitiveOption);
     mSortFilterModel->setFilterKeyColumn(mHeaders.count() - 1); // process name
-    mSortFilterModel->setFilterRegExp(query);
+    mSortFilterModel->setFilterRegularExpression(query);
 }
 
 void ProcessesPage::on_sliderRefresh_valueChanged(const int &i)

@@ -172,7 +172,12 @@ void SearchPage::on_btnAdvancePaneToggle_clicked()
 
 void SearchPage::on_btnSearchAdvance_clicked()
 {
-    QtConcurrent::run(this, &SearchPage::searching);
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QFuture<void> future = QtConcurrent::run(&SearchPage::searching, this);
+#else
+    QFuture<void> future = QtConcurrent::run(this, &SearchPage::searching);
+#endif
+
     ui->advanceSearchPane->hide();
 }
 

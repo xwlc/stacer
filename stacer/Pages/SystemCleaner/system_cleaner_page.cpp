@@ -302,12 +302,20 @@ void SystemCleanerPage::systemClean()
 
 void SystemCleanerPage::on_btnScan_clicked()
 {
-    QtConcurrent::run(this, &SystemCleanerPage::systemScan);
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QFuture<void> future = QtConcurrent::run(&SystemCleanerPage::systemScan, this);
+#else
+    QFuture<void> future = QtConcurrent::run(this, &SystemCleanerPage::systemScan);
+#endif
 }
 
 void SystemCleanerPage::on_btnClean_clicked()
 {
-    QtConcurrent::run(this, &SystemCleanerPage::systemClean);
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+    QFuture<void> future = QtConcurrent::run(&SystemCleanerPage::systemClean, this);
+#else
+    QFuture<void> future = QtConcurrent::run(this, &SystemCleanerPage::systemClean);
+#endif
 }
 
 void SystemCleanerPage::on_btnBackToCategories_clicked()

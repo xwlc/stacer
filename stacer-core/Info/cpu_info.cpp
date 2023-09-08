@@ -1,6 +1,8 @@
 #include "cpu_info.h"
 #include "command_util.h"
+
 #include <QDebug>
+#include <QRegularExpression>
 
 int CpuInfo::getCpuPhysicalCoreCount() const
 {
@@ -42,7 +44,7 @@ int CpuInfo::getCpuCoreCount() const
         QStringList cpuinfo = FileUtil::readListFromFile(PROC_CPUINFO);
 
         if (! cpuinfo.isEmpty())
-            count = cpuinfo.filter(QRegExp("^processor")).count();
+            count = cpuinfo.filter(QRegularExpression("^processor")).count();
     }
 
     return count;
@@ -52,7 +54,7 @@ QList<double> CpuInfo::getLoadAvgs() const
 {
     QList<double> avgs = {0, 0, 0};
 
-    QStringList strListAvgs = FileUtil::readStringFromFile(PROC_LOADAVG).split(QRegExp("\\s+"));
+    QStringList strListAvgs = FileUtil::readStringFromFile(PROC_LOADAVG).split(QRegularExpression("\\s+"));
 
     if (strListAvgs.count() > 2) {
         avgs.clear();
@@ -67,7 +69,7 @@ QList<double> CpuInfo::getLoadAvgs() const
 double CpuInfo::getAvgClock() const
 {
     const QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');
-    const QStringList clockMHzLines = lines.filter(QRegExp("^CPU( max)? MHz"));
+    const QStringList clockMHzLines = lines.filter(QRegularExpression("^CPU( max)? MHz"));
     if (clockMHzLines.count() > 0) {
         const QString clockMHz = clockMHzLines.first().split(":").last();
         return clockMHz.toDouble();
@@ -79,7 +81,7 @@ double CpuInfo::getAvgClock() const
 QList<double> CpuInfo::getClocks() const
 {
     QStringList lines = FileUtil::readListFromFile(PROC_CPUINFO)
-            .filter(QRegExp("^cpu MHz"));
+            .filter(QRegularExpression("^cpu MHz"));
 
     QList<double> clocks;
     for(auto line: lines){
@@ -116,7 +118,7 @@ QList<int> CpuInfo::getCpuPercents() const
              - guest_nice: running a niced guest
         */
 
-        QRegExp sep("\\s+");
+        QRegularExpression sep("\\s+");
         int count = CpuInfo::getCpuCoreCount() + 1;
         for (int i = 0; i < count; ++i)
         {

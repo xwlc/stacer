@@ -39,9 +39,10 @@ set(LIBRARY_OUTPUT_PATH     "${CMAKE_BINARY_DIR}/lib")
 
 set(PROJECT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}")
 
-# Activating MOC and searching for the Qt5 dependencies
+# Activating MOC and searching for the Qt dependencies
 set(CMAKE_AUTOMOC ON)
-find_package(Qt5  COMPONENTS  Core Gui Widgets Charts Svg Concurrent REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Network Gui Widgets Charts Svg Concurrent REQUIRED)
 
 # Setting the minimum C++ standard and passing the Qt-specific define
 set(CMAKE_CXX_STANDARD           11)

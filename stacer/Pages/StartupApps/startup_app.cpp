@@ -29,22 +29,22 @@ void StartupApp::on_checkStartup_clicked(bool status)
     // Hidden=[true|false]
     int pos = lines.indexOf(HIDDEN_REG);
 
-    QString _status = status ? "true" : "false";
+    QString newStatus = status ? "true" : "false";
 
     if (pos != -1) {
-        _status = status ? "false" : "true";
-        lines.replace(pos, QString("Hidden=%1").arg(_status));
+        newStatus = status ? "false" : "true";
+        lines.replace(pos, QString("Hidden=%1").arg(newStatus));
     } else {
         // X-GNOME-Autostart-enabled=[true|false]
         pos = lines.indexOf(GNOME_ENABLED_REG);
         if (pos != -1) {
-            lines.replace(pos, QString("X-GNOME-Autostart-enabled=%1").arg(_status));
+            lines.replace(pos, QString("X-GNOME-Autostart-enabled=%1").arg(newStatus));
         }
     }
 
     if (pos == -1) {
-        _status = status ? "false" : "true";
-        lines.append(QString("Hidden=%1").arg(_status));
+        newStatus = status ? "false" : "true";
+        lines.append(QString("Hidden=%1").arg(newStatus));
     }
 
     FileUtil::writeFile(mFilePath, lines.join('\n').append('\n'));

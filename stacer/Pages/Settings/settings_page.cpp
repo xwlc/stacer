@@ -68,7 +68,7 @@ void SettingsPage::init()
     QFile startupAppFile(mStartupAppPath);
     if (startupAppFile.exists()) {
         QStringList appContent = FileUtil::readListFromFile(mStartupAppPath);
-        QString isHidden = Utilities::getDesktopValue(QRegExp("^Hidden=.*"), appContent).toLower();
+        QString isHidden = Utilities::getDesktopValue(QRegularExpression("^Hidden=.*"), appContent).toLower();
         ui->checkAutostart->setChecked(isHidden == "false");
     } else {
         ui->checkAutostart->setChecked(false);
@@ -100,9 +100,9 @@ void SettingsPage::init()
 
     // connects
     connect(ui->cmbLanguages, SIGNAL(currentIndexChanged(int)), this, SLOT(cmbLanguagesChanged(int)));
-//    connect(ui->cmbThemes, SIGNAL(currentIndexChanged(int)), this, SLOT(cmbThemesChanged(int)));
+    // connect(ui->cmbThemes, SIGNAL(currentIndexChanged(int)), this, SLOT(cmbThemesChanged(int)));
     connect(ui->cmbDisks, SIGNAL(currentIndexChanged(int)), this, SLOT(cmbDiskChanged(int)));
-    connect(ui->cmbStartPage, SIGNAL(currentIndexChanged(QString)), this, SLOT(cmbStartPageChanged(QString)));
+    connect(ui->cmbStartPage, SIGNAL(currentIndexChanged(int)), this, SLOT(cmbStartPageChanged(int)));
 }
 
 void SettingsPage::cmbLanguagesChanged(const int &index)
@@ -127,6 +127,13 @@ void SettingsPage::cmbDiskChanged(const int &index)
     mSettingManager->setDiskName(diskName);
 }
 
+void SettingsPage::cmbStartPageChanged(const int &index)
+{
+    QString startPage = ui->cmbStartPage->itemText(index);
+
+    mSettingManager->setStartPage(startPage);
+}
+
 void SettingsPage::on_checkAutostart_clicked(bool checked)
 {
     if (checked) {
@@ -147,11 +154,6 @@ void SettingsPage::on_checkAutostart_clicked(bool checked)
 void SettingsPage::on_btnDonate_clicked()
 {
     QDesktopServices::openUrl(QUrl("https://paypal.me/QuentiumYT"));
-}
-
-void SettingsPage::cmbStartPageChanged(const QString text)
-{
-    mSettingManager->setStartPage(text);
 }
 
 void SettingsPage::on_spinCpuPercent_valueChanged(int value)
