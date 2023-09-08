@@ -4,12 +4,12 @@
 #include <QWidget>
 #include <QListWidgetItem>
 
+#include "Managers/info_manager.h"
 #include "apt_source_repository_item.h"
 #include "apt_source_edit.h"
-#include "Managers/info_manager.h"
 
 namespace Ui {
-class APTSourceManagerPage;
+    class APTSourceManagerPage;
 }
 
 class APTSourceManagerPage : public QWidget

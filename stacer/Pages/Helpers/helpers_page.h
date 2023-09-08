@@ -2,11 +2,12 @@
 #define HELPERS_PAGE_H
 
 #include <QWidget>
+
 #include "host_manage.h"
 #include "utilities.h"
 
 namespace Ui {
-class HelpersPage;
+    class HelpersPage;
 }
 
 class HelpersPage : public QWidget

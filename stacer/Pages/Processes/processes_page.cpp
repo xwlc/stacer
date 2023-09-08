@@ -2,6 +2,7 @@
 #include "ui_processes_page.h"
 #include "utilities.h"
 
+#include <QDebug>
 #include <QRegularExpression>
 
 ProcessesPage::~ProcessesPage()

@@ -5,7 +5,7 @@
 #include <QRegularExpression>
 
 namespace Ui {
-class Feedback;
+    class Feedback;
 }
 
 class Feedback : public QDialog

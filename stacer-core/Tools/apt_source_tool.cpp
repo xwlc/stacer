@@ -2,7 +2,6 @@
 #include "Utils/command_util.h"
 #include "Utils/file_util.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 
 bool AptSourceTool::checkSourceRepository()

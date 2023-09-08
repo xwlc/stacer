@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 
-#include "sliding_stacked_widget.h"
 #include "Managers/app_manager.h"
 #include "Managers/setting_manager.h"
 
@@ -20,6 +19,7 @@
 #include "Pages/GnomeSettings/gnome_settings_page.h"
 #include "Pages/Search/search_page.h"
 #include "Pages/Helpers/helpers_page.h"
+#include "sliding_stacked_widget.h"
 #include "feedback.h"
 
 namespace Ui {

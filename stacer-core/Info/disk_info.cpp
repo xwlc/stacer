@@ -1,6 +1,5 @@
 #include "disk_info.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 
 QList<Disk*> DiskInfo::getDisks() const

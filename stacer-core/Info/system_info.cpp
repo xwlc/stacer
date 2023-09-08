@@ -1,5 +1,6 @@
 #include "system_info.h"
 
+#include <QDebug>
 #include <QObject>
 #include <QRegularExpression>
 

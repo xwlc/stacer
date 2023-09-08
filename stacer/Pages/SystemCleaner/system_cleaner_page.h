@@ -5,14 +5,13 @@
 #include <QTreeWidgetItem>
 #include <QMap>
 #include <QMovie>
-#include <QDebug>
 #include <QDir>
 #include <QtConcurrent>
 #include <QThread>
-#include "Managers/app_manager.h"
 
-#include <Managers/info_manager.h>
-#include <Managers/tool_manager.h>
+#include "Managers/app_manager.h"
+#include "Managers/info_manager.h"
+#include "Managers/tool_manager.h"
 
 namespace Ui {
     class SystemCleanerPage;

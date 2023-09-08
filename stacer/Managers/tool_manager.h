@@ -1,9 +1,9 @@
 #ifndef TOOL_MANAGER_H
 #define TOOL_MANAGER_H
 
-#include <Tools/service_tool.h>
-#include <Tools/package_tool.h>
-#include <Tools/apt_source_tool.h>
+#include "Tools/service_tool.h"
+#include "Tools/package_tool.h"
+#include "Tools/apt_source_tool.h"
 
 class ToolManager
 {

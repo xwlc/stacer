@@ -2,15 +2,13 @@
 #define STARTUPAPPSPAGE_H
 
 #include <QWidget>
-#include <QDebug>
 #include <QSharedPointer>
 #include <QAbstractItemModel>
 #include <QFileSystemWatcher>
 
+#include "Utils/file_util.h"
 #include "startup_app.h"
 #include "startup_app_edit.h"
-
-#include "Utils/file_util.h"
 
 namespace Ui {
     class StartupAppsPage;

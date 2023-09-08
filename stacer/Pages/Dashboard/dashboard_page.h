@@ -10,10 +10,9 @@
 #include <QtConcurrent>
 
 #include "Managers/info_manager.h"
+#include "Managers/setting_manager.h"
 #include "circlebar.h"
 #include "linebar.h"
-
-#include "Managers/setting_manager.h"
 
 namespace Ui {
     class DashboardPage;

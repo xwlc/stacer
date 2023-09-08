@@ -6,8 +6,6 @@
 #include <QTextStream>
 #include <QDirIterator>
 #include <QStandardPaths>
-
-#include <QStandardPaths>
 #include <QSharedPointer>
 
 #include "stacer-core_global.h"

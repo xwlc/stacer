@@ -1,10 +1,8 @@
+#include "app.h"
 
 #include <QApplication>
 #include <QSplashScreen>
-#include <QDebug>
 #include <QFontDatabase>
-
-#include "app.h"
 
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &message)
 {

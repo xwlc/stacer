@@ -2,7 +2,6 @@
 #include "ui_app.h"
 #include "utilities.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 #include <QStyle>
 #include <QScreen>

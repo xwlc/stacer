@@ -1,6 +1,5 @@
 #include "dashboard_page.h"
 #include "ui_dashboard_page.h"
-
 #include "utilities.h"
 
 #include <QNetworkAccessManager>

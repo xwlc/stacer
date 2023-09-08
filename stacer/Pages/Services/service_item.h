@@ -2,7 +2,7 @@
 #define SERVICE_ITEM_H
 
 #include <QWidget>
-#include <QDebug>
+
 #include "Managers/tool_manager.h"
 
 namespace Ui {

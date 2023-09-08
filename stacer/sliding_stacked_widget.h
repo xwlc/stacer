@@ -2,10 +2,8 @@
 #define SLIDINGSTACKEDWIDGET_H
 
 #include <QStackedWidget>
-
 #include <QtGui>
 #include <QWidget>
-#include <QDebug>
 #include <QEasingCurve>
 
 class SlidingStackedWidget : public QStackedWidget

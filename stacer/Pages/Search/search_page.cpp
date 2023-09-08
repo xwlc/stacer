@@ -1,6 +1,6 @@
 #include "search_page.h"
 #include "ui_search_page.h"
-#include <QDebug>
+
 #include <QClipboard>
 
 SearchPage::SearchPage(QWidget *parent) :

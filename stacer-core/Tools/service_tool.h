@@ -1,8 +1,7 @@
 #ifndef SERVICE_TOOL_H
 #define SERVICE_TOOL_H
 
-#include <Utils/command_util.h>
-
+#include "Utils/command_util.h"
 #include "stacer-core_global.h"
 
 class STACERCORESHARED_EXPORT Service

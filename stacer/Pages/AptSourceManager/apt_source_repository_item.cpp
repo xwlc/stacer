@@ -3,8 +3,6 @@
 #include "utilities.h"
 #include "Utils/command_util.h"
 
-#include <QDebug>
-
 APTSourceRepositoryItem::~APTSourceRepositoryItem()
 {
     delete ui;

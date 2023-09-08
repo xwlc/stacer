@@ -1,5 +1,6 @@
 #include "gnome_settings_tool.h"
 #include "Utils/command_util.h"
+
 #include <QDebug>
 
 bool GnomeSettingsTool::checkGSettings()

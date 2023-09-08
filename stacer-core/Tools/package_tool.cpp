@@ -187,7 +187,6 @@ bool PackageTool::snapRemovePackages(QStringList packages)
 {
     try {
         packages.insert(0, "remove");
-        qDebug() << packages;
 
         CommandUtil::sudoExec("snap", packages);
 

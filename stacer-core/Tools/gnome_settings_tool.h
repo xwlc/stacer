@@ -2,8 +2,8 @@
 #define GNOME_SETTINGS_TOOL_H
 
 #include <QVariant>
-#include "gnome_schema.h"
 
+#include "gnome_schema.h"
 #include "stacer-core_global.h"
 
 class STACERCORESHARED_EXPORT GnomeSettingsTool

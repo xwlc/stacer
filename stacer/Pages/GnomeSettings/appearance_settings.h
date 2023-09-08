@@ -2,10 +2,11 @@
 #define APPEARANCE_SETTINGS_H
 
 #include <QWidget>
+
 #include "Tools/gnome_settings_tool.h"
 
 namespace Ui {
-class AppearanceSettings;
+    class AppearanceSettings;
 }
 
 class AppearanceSettings : public QWidget

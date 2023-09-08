@@ -2,9 +2,9 @@
 #define NETWORK_INFO_H
 
 #include <QtNetwork/QNetworkInterface>
+
 #include "Utils/file_util.h"
 #include "Utils/command_util.h"
-
 #include "stacer-core_global.h"
 
 class STACERCORESHARED_EXPORT NetworkInfo

@@ -1,6 +1,5 @@
 #include "apt_source_manager_page.h"
 #include "ui_apt_source_manager_page.h"
-#include <QDebug>
 #include "utilities.h"
 #include "Managers/tool_manager.h"
 

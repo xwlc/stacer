@@ -1,8 +1,6 @@
 #include "apt_source_edit.h"
 #include "ui_apt_source_edit.h"
 
-#include <QDebug>
-
 APTSourceEdit::~APTSourceEdit()
 {
     delete ui;

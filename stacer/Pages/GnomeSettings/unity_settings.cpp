@@ -1,7 +1,6 @@
 #include "unity_settings.h"
 #include "ui_unity_settings.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 
 UnitySettings::~UnitySettings()

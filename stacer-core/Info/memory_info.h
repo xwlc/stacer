@@ -3,9 +3,9 @@
 
 #include "Utils/file_util.h"
 
-#define PROC_MEMINFO "/proc/meminfo"
-
 #include "stacer-core_global.h"
+
+#define PROC_MEMINFO "/proc/meminfo"
 
 class STACERCORESHARED_EXPORT MemoryInfo
 {

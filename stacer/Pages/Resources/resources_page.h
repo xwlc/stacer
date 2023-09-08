@@ -1,13 +1,13 @@
 #ifndef RESOURCESPAGE_H
 #define RESOURCESPAGE_H
 
-#include <QWidget>
-#include <QTimer>
-
-#include "history_chart.h"
-#include "Managers/info_manager.h"
 #include <QChart>
 #include <QSpacerItem>
+#include <QTimer>
+#include <QWidget>
+
+#include "Managers/info_manager.h"
+#include "history_chart.h"
 
 namespace Ui {
     class ResourcesPage;

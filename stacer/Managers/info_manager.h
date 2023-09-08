@@ -3,12 +3,12 @@
 
 #include <QObject>
 
-#include <Info/cpu_info.h>
-#include <Info/disk_info.h>
-#include <Info/memory_info.h>
-#include <Info/network_info.h>
-#include <Info/system_info.h>
-#include <Info/process_info.h>
+#include "Info/cpu_info.h"
+#include "Info/disk_info.h"
+#include "Info/memory_info.h"
+#include "Info/network_info.h"
+#include "Info/system_info.h"
+#include "Info/process_info.h"
 
 class InfoManager
 {

@@ -1,6 +1,5 @@
 #include "memory_info.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 
 MemoryInfo::MemoryInfo():

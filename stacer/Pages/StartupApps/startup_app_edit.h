@@ -1,11 +1,10 @@
 #ifndef STARTUP_APP_EDIT_H
 #define STARTUP_APP_EDIT_H
 
-#include "Managers/app_manager.h"
-
 #include <QRegularExpression>
-#include <QDesktopWidget>
 #include <QDialog>
+
+#include "Managers/app_manager.h"
 
 #define NAME_REG QRegularExpression("^Name=.*")
 #define COMMENT_REG QRegularExpression("^Comment=.*")

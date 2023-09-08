@@ -4,7 +4,7 @@
 #include <QTreeWidgetItem>
 #include <QWidget>
 
-#include <Utils/format_util.h>
+#include "Utils/format_util.h"
 
 class ByteTreeWidget : public QTreeWidgetItem
 {

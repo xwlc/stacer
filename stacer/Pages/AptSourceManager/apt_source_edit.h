@@ -2,10 +2,11 @@
 #define APT_SOURCE_EDIT_H
 
 #include <QDialog>
+
 #include "Managers/tool_manager.h"
 
 namespace Ui {
-class APTSourceEdit;
+    class APTSourceEdit;
 }
 
 class APTSourceEdit : public QDialog

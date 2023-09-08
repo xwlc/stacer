@@ -2,14 +2,14 @@
 #define GNOME_SETTINGS_PAGE_H
 
 #include <QWidget>
-#include "sliding_stacked_widget.h"
 
+#include "sliding_stacked_widget.h"
 #include "unity_settings.h"
 #include "window_manager_settings.h"
 #include "appearance_settings.h"
 
 namespace Ui {
-class GnomeSettingsPage;
+    class GnomeSettingsPage;
 }
 
 class GnomeSettingsPage : public QWidget

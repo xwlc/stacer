@@ -1,5 +1,4 @@
 #include "network_info.h"
-#include <QDebug>
 
 NetworkInfo::NetworkInfo()
 {

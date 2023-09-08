@@ -2,6 +2,7 @@
 #define SERVICESPAGE_H
 
 #include <QWidget>
+
 #include "Managers/tool_manager.h"
 
 namespace Ui {

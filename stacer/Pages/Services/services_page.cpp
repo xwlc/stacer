@@ -1,8 +1,8 @@
 #include "services_page.h"
 #include "ui_services_page.h"
 #include "service_item.h"
-
 #include "utilities.h"
+
 #include <QtConcurrent>
 
 ServicesPage::~ServicesPage()

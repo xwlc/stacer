@@ -4,7 +4,6 @@
 #include <QWidget>
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
-#include <QDebug>
 #include <QScrollBar>
 #include <QTimer>
 #include <QMenu>

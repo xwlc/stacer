@@ -5,13 +5,13 @@
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
 #include <QMenu>
+
 #include "Utils/file_util.h"
 #include "Utils/command_util.h"
-
 #include "utilities.h"
 
 namespace Ui {
-class HostManage;
+    class HostManage;
 }
 
 class HostItem

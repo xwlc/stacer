@@ -1,6 +1,6 @@
 #include "appearance_settings.h"
 #include "ui_appearance_settings.h"
-#include <QDebug>
+
 AppearanceSettings::~AppearanceSettings()
 {
     delete ui;

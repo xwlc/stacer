@@ -2,10 +2,9 @@
 #define STARTUP_APP_H
 
 #include <QWidget>
-#include <QDebug>
 #include <QSharedPointer>
-#include <Utils/file_util.h>
 
+#include "Utils/file_util.h"
 #include "startup_app_edit.h"
 
 namespace Ui {

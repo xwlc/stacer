@@ -1,10 +1,11 @@
 #ifndef DISKINFO_H
 #define DISKINFO_H
 
-#include "Utils/command_util.h"
-#include "Utils/file_util.h"
 #include <QStorageInfo>
 #include <QSet>
+
+#include "Utils/command_util.h"
+#include "Utils/file_util.h"
 #include "stacer-core_global.h"
 
 #define PROC_MOUNTS "/proc/mounts"

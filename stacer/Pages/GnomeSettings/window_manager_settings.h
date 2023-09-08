@@ -2,10 +2,11 @@
 #define WINDOW_MANAGER_SETTINGS_H
 
 #include <QWidget>
+
 #include "Tools/gnome_settings_tool.h"
 
 namespace Ui {
-class WindowManagerSettings;
+    class WindowManagerSettings;
 }
 
 class WindowManagerSettings : public QWidget

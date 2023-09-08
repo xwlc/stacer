@@ -1,9 +1,9 @@
 #include "command_util.h"
 
-#include <QProcess>
-#include <QTextStream>
-#include <QStandardPaths>
 #include <QDebug>
+#include <QProcess>
+#include <QStandardPaths>
+#include <QTextStream>
 
 #include <memory>
 

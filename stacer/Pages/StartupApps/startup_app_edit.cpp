@@ -2,7 +2,6 @@
 #include "ui_startup_app_edit.h"
 #include "utilities.h"
 
-#include <QDebug>
 #include <QRegularExpression>
 #include <QStyle>
 #include <QScreen>
@@ -102,8 +101,6 @@ void StartupAppEdit::on_btnSave_clicked()
                     .simplified()
                     .replace(' ', '-')
                     .toLower();
-
-            qDebug() << appFileName;
 
             QString path = QString("%1/%2.desktop").arg(mAutostartPath).arg(appFileName);
 

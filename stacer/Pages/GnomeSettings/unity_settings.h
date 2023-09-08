@@ -2,10 +2,11 @@
 #define UNITY_SETTINGS_H
 
 #include <QWidget>
+
 #include "Tools/gnome_settings_tool.h"
 
 namespace Ui {
-class UnitySettings;
+    class UnitySettings;
 }
 
 class UnitySettings : public QWidget

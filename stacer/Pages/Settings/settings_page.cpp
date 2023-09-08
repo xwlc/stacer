@@ -1,7 +1,8 @@
 #include "settings_page.h"
 #include "ui_settings_page.h"
-#include "Managers/info_manager.h"
 #include "utilities.h"
+#include "Managers/info_manager.h"
+
 #include <QDesktopServices>
 #include <QUrl>
 

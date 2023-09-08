@@ -2,10 +2,11 @@
 #define APTSourceRepositoryItem_H
 
 #include <QWidget>
+
 #include "Managers/tool_manager.h"
 
 namespace Ui {
-class APTSourceRepositoryItem;
+    class APTSourceRepositoryItem;
 }
 
 class APTSourceRepositoryItem : public QWidget

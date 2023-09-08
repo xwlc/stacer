@@ -3,21 +3,22 @@
 
 #include <QWidget>
 #include <QFileDialog>
-#include "Managers/info_manager.h"
-#include "utilities.h"
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
 #include <QMenu>
 #include <QAction>
 #include <QDateTime>
-#include "Utils/format_util.h"
-#include "Managers/setting_manager.h"
 #include <QMovie>
 #include <QtConcurrent>
 #include <QDesktopServices>
 
+#include "Managers/info_manager.h"
+#include "Managers/setting_manager.h"
+#include "Utils/format_util.h"
+#include "utilities.h"
+
 namespace Ui {
-class SearchPage;
+    class SearchPage;
 }
 
 class SearchPage : public QWidget

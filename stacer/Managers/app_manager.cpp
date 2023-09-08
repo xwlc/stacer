@@ -1,5 +1,4 @@
 #include "app_manager.h"
-#include <QDebug>
 
 AppManager *AppManager::instance = nullptr;
 

@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QtCharts>
+
 #include "Managers/app_manager.h"
 #include "signal_mapper.h"
 

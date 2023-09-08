@@ -1,6 +1,5 @@
 #include "history_chart.h"
 #include "ui_history_chart.h"
-#include <QDebug>
 
 HistoryChart::~HistoryChart()
 {
