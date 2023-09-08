@@ -93,7 +93,6 @@ void DashboardPage::checkUpdate()
                     }
                 }
             }
-
         }
     });
     nam->get(updateCheckRequest);
@@ -121,7 +120,7 @@ void DashboardPage::systemInformationInit()
 
     QStringListModel *systemInfoModel = new QStringListModel(infos,ui->listViewSystemInfo);
     const auto oldModel = ui->listViewSystemInfo->selectionModel();
-    delete  oldModel;
+    delete oldModel;
     ui->listViewSystemInfo->setModel(systemInfoModel);
 }
 
@@ -131,15 +130,15 @@ void DashboardPage::updateCpuBar()
     double cpuCurrentClockGHz = im->getCpuClock()/1000.0;
 
     // alert message
-    int cpuAlerPercent = mSettingManager->getCpuAlertPercent();
-    if (cpuAlerPercent > 0) {
+    int cpuAlertPercent = mSettingManager->getCpuAlertPercent();
+    if (cpuAlertPercent > 0) {
         static bool isShow = true;
-        if (cpuUsedPercent > cpuAlerPercent && isShow) {
+        if (cpuUsedPercent > cpuAlertPercent && isShow) {
             AppManager::ins()->getTrayIcon()->showMessage(tr("High CPU Usage"),
-                                                          tr("The amount of CPU used is over %1%.").arg(cpuAlerPercent),
+                                                          tr("The amount of CPU used is over %1%.").arg(cpuAlertPercent),
                                                           QSystemTrayIcon::Warning);
             isShow = false;
-        } else if (cpuUsedPercent < cpuAlerPercent) {
+        } else if (cpuUsedPercent < cpuAlertPercent) {
             isShow = true;
         }
     }

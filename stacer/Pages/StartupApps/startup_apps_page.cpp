@@ -17,7 +17,7 @@ StartupAppsPage::StartupAppsPage(QWidget *parent) :
     init();
 }
 
-bool StartupAppsPage::checkIfDisabled(const QString& as_path)
+bool StartupAppsPage::checkIfDisabled(const QString &as_path)
 {
 #if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
     const QByteArrayView disabled_str("X-GNOME-Autostart-enabled=false");
@@ -40,9 +40,9 @@ void StartupAppsPage::init()
     bool startups_disabled = false;
 
     /* original behavior, autostart is a dir and not...
-     * * a pre-exisiting file as is case on my machine.
+     * * a pre-existing file as is case on my machine.
      */
-    if (asfi.isDir() == true) {
+    if (asfi.isDir()) {
         mAutostartPath.append("/");
     }
     else {
@@ -82,9 +82,9 @@ void StartupAppsPage::loadApps()
     QDir autostartFiles(mAutostartPath, "*.desktop");
 
     QLatin1String enabledStr("true");
-    for (const QFileInfo &f : autostartFiles.entryInfoList())
+    for (const QFileInfo &info : autostartFiles.entryInfoList())
     {
-        QStringList lines = FileUtil::readListFromFile(f.absoluteFilePath());
+        QStringList lines = FileUtil::readListFromFile(info.absoluteFilePath());
 
         QString appName = Utilities::getDesktopValue(NAME_REG, lines); // get name
 
@@ -107,7 +107,7 @@ void StartupAppsPage::loadApps()
             QListWidgetItem *item = new QListWidgetItem(ui->listWidgetStartup);
 
             // new app
-            StartupApp *app = new StartupApp(appName, enabled, f.absoluteFilePath(), this);
+            StartupApp *app = new StartupApp(appName, enabled, info.absoluteFilePath(), this);
 
             connect(app, &StartupApp::deleteAppS, this, &StartupAppsPage::loadApps);
             connect(app, &StartupApp::editStartupAppS, this, &StartupAppsPage::openStartupAppEdit);

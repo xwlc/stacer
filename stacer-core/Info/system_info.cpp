@@ -10,14 +10,14 @@ SystemInfo::SystemInfo()
     QString speed;
 
     try {
-        QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');  //run command in English language (guaratee same behaviour across languages)
+        QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');  //run command in English language (guarantee same behaviour across languages)
 
         QRegularExpression regexp("\\s+");
         QString space(" ");
 
-        auto filterModel = lines.filter(QRegularExpression("^Model name"));
+        QStringList filterModel = lines.filter(QRegularExpression("^Model name"));
         QString modelLine = filterModel.isEmpty() ? "error missing model:error missing model" : filterModel.first();
-        auto filterSpeed = lines.filter(QRegularExpression("^CPU max MHz"));
+        QStringList filterSpeed = lines.filter(QRegularExpression("^CPU max MHz"));
         QString speedLine = "error:0.0";
         if (filterSpeed.isEmpty())
         {

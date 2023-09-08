@@ -52,18 +52,18 @@ void ServicesPage::loadServices()
     bool runningStatus = runningIndex == 1;
     bool startupStatus = startupIndex == 1;
 
-    for (const Service s : mServices) {
-        bool runningFilter = runningIndex != 0 ? s.active == runningStatus : true;
-        bool startupFilter = startupIndex != 0 ? s.status == startupStatus : true;
+    for (const Service service : mServices) {
+        bool runningFilter = runningIndex != 0 ? service.active == runningStatus : true;
+        bool startupFilter = startupIndex != 0 ? service.status == startupStatus : true;
 
         if (runningFilter && startupFilter) {
-            ServiceItem *service = new ServiceItem(s.name, s.description, s.status, s.active);
+            ServiceItem *serviceItem = new ServiceItem(service.name, service.description, service.status, service.active);
 
             QListWidgetItem *item = new QListWidgetItem(ui->listWidgetServices);
 
-            item->setSizeHint(service->sizeHint());
+            item->setSizeHint(serviceItem->sizeHint());
 
-            ui->listWidgetServices->setItemWidget(item, service);
+            ui->listWidgetServices->setItemWidget(item, serviceItem);
         }
     }
 

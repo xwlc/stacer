@@ -15,7 +15,7 @@ int CpuInfo::getCpuPhysicalCoreCount() const
             QSet<QPair<int, int> > physicalCoreSet;
             int physical = 0;
             int core = 0;
-            for (auto & line : cpuinfo) {
+            for (const QString &line : cpuinfo) {
                 if (line.startsWith("physical id")) {
                     QStringList fields = line.split(": ");
                     if (fields.size() > 1)
@@ -84,7 +84,7 @@ QList<double> CpuInfo::getClocks() const
             .filter(QRegularExpression("^cpu MHz"));
 
     QList<double> clocks;
-    for(auto line: lines){
+    for(const QString &line: lines){
         clocks.push_back(line.split(":").last().toDouble());
     }
     return clocks;
@@ -124,8 +124,8 @@ QList<int> CpuInfo::getCpuPercents() const
         {
             QStringList n_times = times.at(i).split(sep);
             n_times.removeFirst();
-            for (const QString &t : n_times)
-                cpuTimes << t.toDouble();
+            for (const QString &time : n_times)
+                cpuTimes << time.toDouble();
 
             cpuPercents << getCpuPercent(cpuTimes, i);
 
@@ -149,7 +149,7 @@ int CpuInfo::getCpuPercent(const QList<double> &cpuTimes, const int &processor) 
 
         double idle = cpuTimes.at(3) + cpuTimes.at(4); // get (idle + iowait)
         double total = 0.0;
-        for (const double &t : cpuTimes) total += t; // get total time
+        for (const double &time : cpuTimes) total += time; // get total time
 
         double idle_delta  = idle  - l_idles[processor];
         double total_delta = total - l_totals[processor];

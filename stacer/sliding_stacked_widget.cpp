@@ -60,7 +60,7 @@ void SlidingStackedWidget::slideInWgt(QWidget * newwidget, t_direction direction
 {
     // do not allow re-entrance before an animation is completed.
     if (active)
-        return ;
+        return;
     else
         active = true;
 

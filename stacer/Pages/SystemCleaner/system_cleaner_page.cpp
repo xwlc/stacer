@@ -25,7 +25,7 @@ SystemCleanerPage::SystemCleanerPage(QWidget *parent) :
 
 void SystemCleanerPage::init()
 {
-    // treview settings
+    // preview settings
     ui->treeWidgetScanResult->setColumnCount(2);
     ui->treeWidgetScanResult->setColumnWidth(0, 600);
 
@@ -66,11 +66,11 @@ quint64 SystemCleanerPage::addTreeRoot(const CleanCategories &cat, const QString
     quint64 totalSize = 0;
 
     if(! noChild) {
-        for (const QFileInfo &i : infos) {
-            QString path = i.absoluteFilePath();
+        for (const QFileInfo &info : infos) {
+            QString path = info.absoluteFilePath();
             quint64 size = FileUtil::getFileSize(path);
 
-            addTreeChild(path, i.fileName(), size, root);
+            addTreeChild(path, info.fileName(), size, root);
 
             totalSize += size;
         }
@@ -114,7 +114,7 @@ void SystemCleanerPage::on_treeWidgetScanResult_itemClicked(QTreeWidgetItem *ite
       // update check state
       //item->setCheckState(column, cs);
 
-      // change check state if has children
+      // change check state if it has children
       for (int i = 0; i < item->childCount(); ++i)
         item->child(i)->setCheckState(column, cs);
     }
@@ -249,7 +249,7 @@ void SystemCleanerPage::systemClean()
             }
 
             // Trash
-            else if (cat == CleanCategories::TRASH) {
+            else {
 
                 if (it->checkState(0) == Qt::Checked) {
 
@@ -272,7 +272,7 @@ void SystemCleanerPage::systemClean()
         }
 
         for (int i = 0; i < tree->topLevelItemCount(); ++i) {
-            // clear removed childs
+            // clear removed children
             for (QTreeWidgetItem *item : children) {
                 tree->topLevelItem(i)->removeChild(item);
             }

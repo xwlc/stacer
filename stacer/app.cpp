@@ -26,10 +26,9 @@ App::App(QWidget *parent) :
 
 void App::init()
 {
-    QScreen *screen = QGuiApplication::primaryScreen();
     setGeometry(
         QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter,
-            size(), screen->availableGeometry())
+            size(), qApp->primaryScreen()->availableGeometry())
     );
 
     // form settings

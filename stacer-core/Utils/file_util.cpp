@@ -67,8 +67,8 @@ quint64 FileUtil::getFileSize(const QString &path)
 
             QDir dir(path);
 
-            for (const QFileInfo &i : dir.entryInfoList(QDir::NoDotAndDotDot | QDir::Files | QDir::Dirs)) {
-                totalSize += getFileSize(i.absoluteFilePath());
+            for (const QFileInfo &info : dir.entryInfoList(QDir::NoDotAndDotDot | QDir::Files | QDir::Dirs)) {
+                totalSize += getFileSize(info.absoluteFilePath());
             }
         }
     }

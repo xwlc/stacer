@@ -368,12 +368,12 @@ void SearchPage::on_tableFoundResults_customContextMenuRequested(const QPoint &p
         QPoint globalPos = ui->tableFoundResults->mapToGlobal(pos);
         QAction *action = mTableRowMenu.exec(globalPos);
 
-        QModelIndexList selecteds = ui->tableFoundResults->selectionModel()->selectedRows();
+        QModelIndexList selected = ui->tableFoundResults->selectionModel()->selectedRows();
         QItemSelectionModel *selectionModel = ui->tableFoundResults->selectionModel();
 
-        if (action && ! selecteds.isEmpty()) {
+        if (action && ! selected.isEmpty()) {
             if (action->data().toString() == "open-folder") {
-                for (QModelIndex &index : selecteds) {
+                for (QModelIndex &index : selected) {
                     QUrl folderPath = mSortFilterModel->index(index.row(), 1).data(rowRole).toUrl();
                     QDesktopServices::openUrl(folderPath);
                 }
