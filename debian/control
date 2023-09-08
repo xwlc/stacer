@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Quentin Lienhardt <pro@quentium.fr>
 Build-Depends: debhelper (>= 12)
 Standards-Version: 4.6.2
-Homepage: https://github.com/Quentium-Forks/Stacer
-Vcs-Browser: https://github.com/Quentium-Forks/Stacer
-Vcs-Git: https://github.com/Quentium-Forks/Stacer.git
+Homepage: https://github.com/QuentiumYT/Stacer
+Vcs-Browser: https://github.com/QuentiumYT/Stacer
+Vcs-Git: https://github.com/QuentiumYT/Stacer.git
 
 Package: stacer
 Architecture: all

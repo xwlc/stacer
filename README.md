@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/header.png" width="800">    
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/header.png" width="800">    
 </p>
 
 <h2 align="center">Linux System Optimizer and Monitoring</h2>
@@ -8,8 +8,8 @@
 	<a href="https://www.kernel.org">
 		<img alt="Platform (GNU/Linux)" src="https://img.shields.io/badge/platform-GNU/Linux-blue.svg"/>
 	</a>
-	<a href="https://github.com/Quentium-Forks/Stacer/releases">
-		<img alt="Github All Releases" src="https://img.shields.io/github/downloads/Quentium-Forks/Stacer/total.svg"/>
+	<a href="https://github.com/QuentiumYT/Stacer/releases">
+		<img alt="Github All Releases" src="https://img.shields.io/github/downloads/QuentiumYT/Stacer/total.svg"/>
 	</a>
 </p>
 
@@ -46,7 +46,7 @@
 
 ### Debian / Ubuntu
 
-1. Download the stacer binary from the [Stacer releases page](https://github.com/Quentium-Forks/Stacer/releases).
+1. Download the stacer binary from the [Stacer releases page](https://github.com/QuentiumYT/Stacer/releases).
 2. Run `sudo dpkg -i stacer_*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
@@ -57,7 +57,7 @@
 
 ### Fedora
 
-1. Download the stacer binary from the [Stacer releases page](https://github.com/Quentium-Forks/Stacer/releases).
+1. Download the stacer binary from the [Stacer releases page](https://github.com/QuentiumYT/Stacer/releases).
 2. Run `sudo rpm --install stacer_*.rpm --nodeps --force` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
@@ -99,71 +99,71 @@ Dependencies:
 ## Screenshots
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-1.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-1.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-2.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-2.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-3.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-3.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-4.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-4.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-5.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-5.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-6.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-6.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-7.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-7.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-8.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-8.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-9.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-9.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-10.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-10.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-11.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-11.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-12.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-12.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-13.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-13.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-14.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-14.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-15.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-15.png" width="700">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Quentium-Forks/Stacer/main/screenshots/Screenshot-1.0.9-16.png" width="700">
+    <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/Screenshot-1.0.9-16.png" width="700">
 </p>
 
 ## Contributors
 
 This project exists thanks to all the people who contribute.
 
-<a href="https://github.com/Quentium-Forks/Stacer/graphs/contributors"><img src="https://opencollective.com/Stacer/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/QuentiumYT/Stacer/graphs/contributors"><img src="https://opencollective.com/Stacer/contributors.svg?width=890&button=false" /></a>

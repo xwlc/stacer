@@ -146,7 +146,7 @@ void SettingsPage::on_checkAutostart_clicked(bool checked)
 
 void SettingsPage::on_btnDonate_clicked()
 {
-    QDesktopServices::openUrl(QUrl("https://www.patreon.com/oguzhaninan"));
+    QDesktopServices::openUrl(QUrl("https://paypal.me/QuentiumYT"));
 }
 
 void SettingsPage::cmbStartPageChanged(const QString text)
