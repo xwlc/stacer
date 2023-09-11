@@ -1,9 +1,9 @@
-stacer (1.2.2-1) focal; urgency=medium
+stacer (1.3.0-1) focal; urgency=medium
 
-  * Bump several versions
-  * Small code cleanup conventions
-  * Fix byte comparison deprecation
-  * Added basque translation + fixed language codes
-  * Changed feedback URL to receive messages
+  * Ported to Qt6, Qt5 still supported (Thanks @qwerity)
+  * Clean some code with more explicit variables
+  * Clean include libs + order & removed QDebug
+  * Replaced QComboBox adjust deprecation UI
+  * Moved repo to QuentiumYT
 
- -- Quentin Lienhardt <pro@quentium.fr>  Tue, 5 Sep 2023 14:00:00 +0100
+ -- Quentin Lienhardt <pro@quentium.fr>  Mon, 11 Sep 2023 12:00:00 +0100
