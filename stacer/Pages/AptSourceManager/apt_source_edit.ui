@@ -84,7 +84,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Fields cannot be left blank. </string>
+      <string>Fields cannot be left blank.</string>
      </property>
     </widget>
    </item>

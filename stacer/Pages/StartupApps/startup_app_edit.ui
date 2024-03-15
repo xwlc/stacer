@@ -41,7 +41,7 @@
    <item row="6" column="0">
     <widget class="QLabel" name="lblErrorMsg">
      <property name="text">
-      <string>Fields cannot be left blank. </string>
+      <string>Fields cannot be left blank.</string>
      </property>
     </widget>
    </item>

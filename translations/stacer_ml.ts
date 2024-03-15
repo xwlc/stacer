@@ -30,7 +30,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="87"/>
-        <source>Fields cannot be left blank. </source>
+        <source>Fields cannot be left blank.</source>
         <translation>നിർബന്ധമായും പൂരിപ്പിക്കേണ്ടവ. </translation>
     </message>
     <message>
@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="86"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Add Repository</source>
         <translation>ശേഖരം ചേർക്കുക</translation>
     </message>
@@ -108,17 +108,17 @@
         <translation>തിരുത്താനോ ഇല്ലാതാക്കാനോ തിരഞ്ഞെടുക്കുക.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="25"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
         <source>example %1</source>
         <translation>ഉദാഹരണം %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="59"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="58"/>
         <source>APT Repositories (%1)</source>
         <translation>APT ശേഖരങ്ങൾ (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="66"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="65"/>
         <source>Save</source>
         <translation>സൂക്ഷിക്കുക</translation>
     </message>
@@ -126,7 +126,7 @@
 <context>
     <name>APTSourceRepositoryItem</name>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_repository_item.cpp" line="34"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_repository_item.cpp" line="33"/>
         <source>%1 (Source Code)</source>
         <translation>%1 സോഴ്സ് കോഡ്</translation>
     </message>
@@ -328,7 +328,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="230"/>
-        <source>There are update currently available.</source>
+        <source>A new update is now available.</source>
         <translation>നിലവിൽ അപ്ഡേറ്റുകൾ ലഭ്യമാണ്.</translation>
     </message>
     <message>
@@ -362,73 +362,73 @@
         <translation>അപ്‌ലോഡ്</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="112"/>
         <source>Hostname: %1</source>
         <translation>ഹോസ്റ്റ് നെയിം: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
         <source>Platform: %1</source>
         <translation>പ്ലാറ്റഫോം: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Distribution: %1</source>
         <translation>വിതരണം: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
         <source>Kernel Release: %1</source>
         <translation>കേർണൽ റിലീസ്: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>CPU Model: %1</source>
         <translation>സിപിയു: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="119"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
         <source>CPU Speed: %1</source>
         <translation>സിപിയു വേഗത: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>CPU Core: %1</source>
         <translation>സിപിയു കോർ: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="137"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="136"/>
         <source>High CPU Usage</source>
         <translation>ഉയർന്ന സിപിയു ഉപയോഗം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="137"/>
         <source>The amount of CPU used is over %1%.</source>
         <translation>ഉപയോഗിച്ച സിപിയു അളവ് %1% -ത്തിലധികമാണ്.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="166"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="165"/>
         <source>High Memory Usage</source>
         <translation>ഉയർന്ന മെമ്മറി ഉപയോഗം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="167"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="166"/>
         <source>The amount of memory used is over %1%.</source>
         <translation>ഉപയോഗിച്ച മെമ്മറി %1%.-ത്തിലധികമാണ്.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="210"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="209"/>
         <source>High Disk Usage</source>
         <translation>ഉയർന്ന ഡിസ്ക് ഉപയോഗം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="211"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="210"/>
         <source>The amount of disk used is over %1%.</source>
         <translation>ഉപയോഗിച്ചിരിക്കുന്ന ഡിസ്കിന്റെ അളവ് %1% -ത്തിലധികമാണ്.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="249"/>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="253"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="248"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="252"/>
         <source>Total: %1</source>
         <translation>മൊത്തം: %1</translation>
     </message>
@@ -472,7 +472,7 @@
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="78"/>
-        <source>Send a Feedback</source>
+        <source>Send feedback</source>
         <translation>പ്രതികരണം അയക്കുക</translation>
     </message>
     <message>
@@ -492,7 +492,7 @@
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="77"/>
-        <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
+        <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your feedback has been successfully sent. Thanks!&lt;/font&gt;</source>
         <translation>&lt;font color=&apos;#2ecc71&apos;&gt;നിങ്ങളുടെ പ്രതികരണം വിജയകരമായി അയച്ചു.&lt;/font&gt;</translation>
     </message>
     <message>
@@ -583,7 +583,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="160"/>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="35"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="36"/>
         <source>Aliases</source>
         <translation type="unfinished"></translation>
     </message>
@@ -603,33 +603,33 @@
         <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="24"/>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="98"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="25"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="99"/>
         <source>Hosts (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="35"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="36"/>
         <source>IP Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="35"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="36"/>
         <source>Full Qualified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="135"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="136"/>
         <source>Edit</source>
         <translation>തിരുത്തുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="139"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="140"/>
         <source>Delete</source>
         <translation>നീക്കം ചെയ്യുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="147"/>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="148"/>
         <source>The IP and Fully Qualified fields are required.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -658,67 +658,67 @@
         <translation>പ്രക്രിയ നിർത്തുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>User</source>
         <translation>ഉപയോക്താവ്</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
         <source>Resident Memory</source>
         <translation>റസിഡന്റ് മെമ്മറി</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
         <source>%Memory</source>
         <translation>%മെമ്മറി</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="26"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
         <source>Virtual Memory</source>
         <translation>വിർച്ച്വൽ മെമ്മറി</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>Start Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>State</source>
         <translation>അവസ്ഥ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>Group</source>
         <translation>കൂട്ടം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
         <source>Nice</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
         <source>CPU Time</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
         <source>Session</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
         <source>Process</source>
         <translation>പ്രക്രിയ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="118"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="121"/>
         <source>Processes (%1)</source>
         <translation>പ്രക്രിയകൾ (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="209"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="211"/>
         <source>Refresh (%1)</source>
         <translation>പുതുക്കുക (%1)</translation>
     </message>
@@ -1061,17 +1061,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="183"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="188"/>
         <source>Select the search directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="281"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="286"/>
         <source>Somethings went wrong, try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="297"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="302"/>
         <source>%1 files found. Showing %2 of them.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1099,37 +1099,37 @@
         <translation>സിസ്റ്റം സർവീസുകൾ കണ്ടെത്താനായില്ല</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
         <source>Running Status</source>
         <translation>പ്രവർത്തിക്കുന്ന നില</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
         <source>Running</source>
         <translation>പ്രവർത്തിക്കുന്നു</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
         <source>Not Running</source>
         <translation>പ്രവർത്തിക്കുന്നില്ല</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
         <source>Startup Status</source>
         <translation>ആരംഭിക്കുന്ന നില</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
         <source>Enabled</source>
         <translation>പ്രാപ്തമാക്കി</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
         <source>Disabled</source>
         <translation>അപ്രാപ്തമാക്കി</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="80"/>
         <source>System Services (%1)</source>
         <translation>സിസ്റ്റം സര്‍വീസുകള്‍ (%1)</translation>
     </message>
@@ -1192,47 +1192,47 @@
         <translation>സംഭാവന</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Dashboard</source>
         <translation>അവലോകനം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Startup Apps</source>
         <translation>ആരംഭ പ്രയോഗങ്ങൾ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>System Cleaner</source>
         <translation>സിസ്റ്റം ക്ലീനർ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Search</source>
         <translation>തിരയുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Services</source>
         <translation>സര്‍വീസുകള്‍</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Processes</source>
         <translation>പ്രക്രിയകൾ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Uninstaller</source>
         <translation>പ്രയോഗങ്ങൾ ഒഴിവാക്കൽ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Resources</source>
         <translation>വിഭവങ്ങൾ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Helpers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1265,7 +1265,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="44"/>
-        <source>Fields cannot be left blank. </source>
+        <source>Fields cannot be left blank.</source>
         <translatorcomment>ഈ ഭാഗങ്ങൾ പൂരിപ്പിക്കാതെ മുന്നോട്ടു പോകാൻ കഴിയില്ല </translatorcomment>
         <translation>നിർബന്ധമായും പൂരിപ്പിക്കേണ്ടവ. </translation>
     </message>
@@ -1311,12 +1311,12 @@
         <translation>സ്റ്റാർട്ടപ്പ് പ്രയോഗം ചേർക്കുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="62"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="68"/>
         <source>Startup Apps are disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="123"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="129"/>
         <source>Startup Applications (%1)</source>
         <translation>സ്റ്റാർട്ടപ്പ് പ്രയോഗങ്ങൾ (%1)</translation>
     </message>
@@ -1356,7 +1356,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="493"/>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="638"/>
-        <source>Select All</source>
+        <source>Select all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1444,18 +1444,18 @@
         <translation>തെരഞ്ഞെടുത്തവ ഒഴിവാക്കാകുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="93"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="99"/>
         <source>Packages (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="98"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="104"/>
         <source>Snap Packages (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="198"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="205"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="203"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="210"/>
         <source>Uninstall Selected (%1)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1723,72 +1723,72 @@
         <translation>ടെക്സ്റ്റിന്റെ ഗുണനിലവാരം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="65"/>
         <source>Fast</source>
         <translation>വേഗം</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="65"/>
         <source>Good</source>
         <translation>നല്ലത്</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="65"/>
         <source>Best</source>
         <translation>മികച്ചത്</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="68"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="67"/>
         <source>Click</source>
         <translation>ക്ലിക്ക്</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="68"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="67"/>
         <source>Sloppy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="68"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="67"/>
         <source>Mouse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="80"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="79"/>
         <source>Toggle Shade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="80"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="79"/>
         <source>Maximize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="80"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="79"/>
         <source>Maximize Horizontally</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="81"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="80"/>
         <source>Maximize Vertically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="81"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="80"/>
         <source>Minimize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="82"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="81"/>
         <source>None</source>
         <translation>ഒന്നുമില്ല</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="82"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="81"/>
         <source>Lower</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="82"/>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="81"/>
         <source>Menu</source>
         <translation>മെനു</translation>
     </message>

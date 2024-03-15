@@ -21,8 +21,7 @@ APTSourceManagerPage::APTSourceManagerPage(QWidget *parent) :
 
 void APTSourceManagerPage::init()
 {
-    ui->txtAptSource->setPlaceholderText(tr("example %1")
-                                         .arg("'deb http://archive.ubuntu.com/ubuntu xenial main'"));
+    ui->txtAptSource->setPlaceholderText(tr("example %1").arg("'deb http://archive.ubuntu.com/ubuntu/ jammy main'"));
 
     loadAptSources();
 

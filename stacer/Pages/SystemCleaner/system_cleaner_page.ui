@@ -490,7 +490,7 @@
           <string notr="true">circle</string>
          </property>
          <property name="text">
-          <string>Select All</string>
+          <string>Select all</string>
          </property>
          <property name="iconSize">
           <size>
@@ -635,7 +635,7 @@
              <string>circle</string>
             </property>
             <property name="text">
-             <string>Select All</string>
+             <string>Select all</string>
             </property>
            </widget>
           </item>
